@@ -1,6 +1,6 @@
 # Wi-Fi модуль ESP01S UART на ESP8266
 
-![TFT_Terminal.jpg](TFT_Terminal.jpg)
+![ESP01S-UART.jpg](ESP01S-UART.jpg)
 
 В основе Wi-Fi модуля ESP01S лежит микроконтроллер ESP8266.
 Модуль подключается по Wi-Fi к локальной сети и связывается по UART с другими контроллерами.
