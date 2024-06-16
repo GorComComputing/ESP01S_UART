@@ -1,6 +1,6 @@
 # Wi-Fi модуль ESP01S UART на ESP8266
 
-![ESP01S-UART.jpg](ESP01S-UART.jpg)
+![img/ESP01S-UART.jpg](img/ESP01S-UART.jpg)
 
 В основе Wi-Fi модуля ESP01S лежит микроконтроллер ESP8266.
 Модуль подключается по Wi-Fi к локальной сети и связывается по UART с другими контроллерами.
@@ -16,16 +16,21 @@
 - шлюз: 192.168.1.1
 - маска сети: 255.255.255.0
 
-Web-сервер работате на порту 80.
+Web-сервер работает на порту 80.
 
 ```
-// SSID и пароль хранятся во внешнем файле password.ino в переменных:
+// SSID и пароль хранятся во внешнем файле secret.ino в переменных:
 // for AP 
 const char* ssid_AP = "********";  
 const char* password_AP = "********";
 // for STA
 const char* ssid = "********";  
 const char* password = "********";
+```
+
+```
+# Для автоматческого добавление на GitHub
+$ python make.py git "Комментарий"
 ```
 
 - Написан на языке C++ Arduino
