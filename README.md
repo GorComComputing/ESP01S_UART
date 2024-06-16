@@ -31,6 +31,9 @@ const char* password = "********";
 ```
 # Для автоматческого добавление на GitHub
 $ python make.py git "Комментарий"
+
+# Токен GitHub хранится во внешнем файле secret.py в переменной:
+# tokenGit = "********"
 ```
 
 - Написан на языке C++ Arduino
